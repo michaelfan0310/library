@@ -75,7 +75,7 @@ body {
 	position: absolute;
 	inset: 0;
 	background:
-		linear-gradient(to top, hsl(0 0% 90%) 2.5vh, transparent 0),
+		linear-gradient(to top, rgba(153, 63, 11, 0.93) 2.5vh, transparent 0),
 		radial-gradient(hsl(0 0% 0% / 70%), hsl(0 0% 0% / 50%)),
 		url('images/library3.jpg') center / cover,
 		darkgray;
@@ -94,7 +94,7 @@ body {
 .room-walls::before {
 	right: 100%;
 	background:
-		linear-gradient(to top, hsl(0 0% 75%) 2.5vh, transparent 0),
+		linear-gradient(to top, rgb(153, 63, 11, 0.93) 2.5vh, transparent 0),
 		radial-gradient(hsl(0 0% 100% / 10%), hsl(0 0% 0% / 10%)),
 		url(https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) center / cover,
 		gray;
@@ -105,7 +105,7 @@ body {
 .room-walls::after {
 	left: 100%;
 	background:
-		linear-gradient(to top, hsl(0 0% 75%) 2.5vh, transparent 0),
+		linear-gradient(to top, rgb(153, 63, 11, 0.93) 2.5vh, transparent 0),
 		radial-gradient(hsl(0 0% 100% /10%), hsl(0 0% 0% / 10%)),
 		url(https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) center / cover,
 		gray;
@@ -122,6 +122,20 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: clamp(1em, 20vmin, 3em);
 	font-weight: 200;
+	text-align: center;
+	text-shadow: 0 5px 10px hsl(0 0% 0% / 20%);
+	text-decoration: none;
+	transform: translatez(calc(var(--depth) / -2)) rotatey(var(--turn));
+}
+.room-content2 {
+	display: grid;
+	place-content: center;
+	height: 100%;
+	width: 100%;
+	color: rgba(97, 81, 241, 0.753);
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: clamp(1em, 20vmin, 1.5em);
+	font-weight: 100;
 	text-align: center;
 	text-shadow: 0 5px 10px hsl(0 0% 0% / 20%);
 	text-decoration: none;
