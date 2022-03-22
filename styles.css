@@ -132,10 +132,10 @@ body {
 	place-content: center;
 	height: 100%;
 	width: 100%;
-	color: rgba(97, 81, 241, 0.753);
+	color: rgba(120, 106, 245, 0.753);
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: clamp(1em, 20vmin, 1.5em);
-	font-weight: 100;
+	font-size: clamp(1em, 20vmin, 2.2em);
+	font-weight: 200;
 	text-align: center;
 	text-shadow: 0 5px 10px hsl(0 0% 0% / 20%);
 	text-decoration: none;
