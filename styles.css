@@ -121,7 +121,7 @@ body {
 	color: white;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: clamp(1em, 20vmin, 3em);
-	font-weight: 200;
+	font-weight: 600;
 	text-align: center;
 	text-shadow: 0 5px 10px hsl(0 0% 0% / 20%);
 	text-decoration: none;
@@ -140,6 +140,15 @@ body {
 	text-shadow: 0 5px 10px hsl(0 0% 0% / 20%);
 	text-decoration: none;
 	transform: translatez(calc(var(--depth) / -2)) rotatey(var(--turn));
+}
+.room-content3 {
+	/* display: grid; */
+
+	/* height: %; */
+	width: 3%;
+
+	
+	
 }
 .room a{
     text-decoration: none;
