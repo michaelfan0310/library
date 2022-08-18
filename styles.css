@@ -158,3 +158,34 @@ body {
 .room:nth-child(odd) > .room-content {
 	--turn: var(--turnLeft);
 }
+
+.btn:hover,  .btn:focus{
+	background-color: aquamarine;}
+  
+  .bth:active {
+   color: red;
+   }
+  
+  .btn:hover {transform: scale(1.5);}
+  
+  .btn .btn-outline-light
+  {   color:whitesmoke;        
+	  text-decoration: none; 
+	  cursor: wait,pointer;}
+					 
+  /* a{color:#feffde;
+  text-shadow: 2px 2px #206a5d;   
+  } */
+
+  
+.buttonWrapper{
+	display:block;
+	margin: 10px auto 2px auto;
+	width: 50%;
+	position: fixed;
+	top:99%;
+	 
+	left:30%; 
+	z-index: 99;
+	 }
+  
